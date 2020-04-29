@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "gmap": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gmap"
+    }
+  },
+  "defaultProject": "gmap",
+  "cli": {
+    "analytics": "a2de99de-12c8-4ef8-ab05-fc7e76d5a58c"
+  }
 }
